@@ -2,7 +2,6 @@ require 'rails_helper'
 
 RSpec.feature 'Showing an Article' do
   before do
-    Article.delete_all
     @article = Article.create(title: 'The first article',
     body: 'Lorem ipsum dolor sit amet, consectetur.')
   end

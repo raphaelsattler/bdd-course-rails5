@@ -2,7 +2,6 @@ require 'rails_helper'
 
 RSpec.feature 'Editing an Article' do
   before do
-    Article.delete_all
     @article = Article.create(title: 'First Article', body: 'Lorem Ipsum')
   end
 
