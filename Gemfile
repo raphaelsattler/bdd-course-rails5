@@ -16,9 +16,6 @@ gem 'uglifier', '>= 1.3.0'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'autoprefixer-rails', '~> 9.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
-gem 'guard', '~> 2.14', '>= 2.14.2'
-gem 'guard-rspec', '~> 4.7', '>= 4.7.3'
-gem 'guard-cucumber', '~> 2.1', '>= 2.1.2'
 gem 'devise', '~> 4.4', '>= 4.4.3'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
@@ -60,6 +57,9 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'guard', '~> 2.14', '>= 2.14.2'
+  gem 'guard-rspec', '~> 4.7', '>= 4.7.3'
+  gem 'guard-cucumber', '~> 2.1', '>= 2.1.2'
 end
 
 
